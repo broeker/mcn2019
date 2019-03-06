@@ -1,0 +1,90 @@
+<section data-background-image="includes/city01.png">
+        <h3 class="gold">Step one: planning<br /> and discovery</h3>
+    <img src="includes/planning.png" width="60%"/>
+    <aside class="notes">
+        <p>So all of our projects typically include a general "planning and discovery" phase, but a big integration
+        project will typically require its own dedicated discovery process</p>
+        <p>It will be a lot of work and sometimes pretty painful but if you do it right, you win.</p>
+        <p>This slide shows some of our original Basecamps posts, Google Docs, and system documentation from InPresto</p>
+        <p>This stage took several weeks, and involved a lot of posts, and back and forth with Wilder and InPresto</p>
+        <p>Some of the things you want to uncover at this point are:</p>
+    </aside>
+</section>
+<section data-background-image="includes/simplecloud.svg">
+    <ul>
+        <li>What are the exact goals and requirements?</li>
+        <li>Is there an API available? How does it look?</li>
+        <li>What about machine-readable export functionality? (XML, CSV, JSON)</li>
+        <li>What documentation is available?</li>
+        <li>Is it better or possible to just rebuild?</li>
+        <li>Ask and re-ask</li>
+        <li>Read and re-read</li>
+        <li>How much time and effort do we think this will take?</li>
+    </ul>
+    <aside class="notes">
+        <p>In this stage, we learned pretty early on that the available API integration was going to be a herculean task, that involved setting up
+        and maintain a dedicated Windows server which we REALLY did not want to do for our sake and for Wilder's sake </p>
+        <p>In an early meeting, we asked if there also might be some kind of export functionality that might expose the data in a machine readable format</p>
+        <p>It turns out there was, and we immediately re-focused our discovery on this process</p>
+        <p>This phase involved Wilder quite heavily in terms of effort and hours</p>
+        <p>By the end of discovery we had a pretty clear path forward, with a fairly high degree of confidence that it would work</p>
+
+    </aside>
+</section>
+<section data-background-image="includes/city01.png">
+        <h3 class="gold">Step two: design and document</h3>
+    <img src="includes/design.png" width="60%"/>
+    <aside class="notes">
+        <p>Once we had eliminated most of the unknowns during discovery, it was time to move into the design phase</p>
+        <p>Unlike the discovery phase, this is where we really start getting deep into the details and documentating everything down to the field level </p>
+    </aside>
+</section>
+<section data-background-image="includes/simplecloud.svg">
+ <ul>
+     <li>Select your tools (e.g. Migrate API)</li>
+     <li>Data analysis and documenation (external)</li>
+     <li>Content model documentation (internal)</li>
+     <li>More Documentation!</li>
+     <li>Experimentation and validation</li>
+     <li>More experimentation and validation!</li>
+    </ul>
+    <aside class="notes">
+        <p>This phase also involved multiple members of the Wilder team and lots of back and forth, reviewing
+        and commenting on living documentation</p>
+        <p>This phase is really about getting all of your ducks in a row, and documenting everything from what tools you
+        use to exactly how the external data will mapped to your website</p>
+        <p>We often build small proof-of-concepts during this phase also, just to make sure we are still on the right path</p>
+    </aside>
+</section>
+<section data-background-image="includes/city01.png">
+    <h3 class="gold">Step three: build</h3>
+    <img src="includes/building.png" width="60%"/>
+    <aside class="notes">
+        <p>With a fully documented plan in hand, it is finally time to move into the build phase</p>
+        <p>Wilder's involvement dropped off a bit during this phase, but they were still quite heavily involved, making changes
+        to data as needed and working with us to verify assumptions</p>
+    </aside>
+</section>
+<section data-background-image="includes/simplecloud.svg">
+<ul>
+        <li>Implement content model and views (Drupal 8)</li>
+        <li>Implement API client or automated export (external/InPresto)</li>
+        <li>Implement API consumer or automated imports (internal/Drupal)</li>
+        <li>Iterate as needed</li>
+        <li>Testing and QA</li>
+    </ul>
+    <aside class="notes">
+        <p>With a good plan and good documentation, the actual build phase should be fairly straight forward</p>
+        <p>But even the best laid plans are no guarantee for an easy path!</p>
+        <p>We'll talk more about some of our specific struggles in a bit but for now, success!</p>
+    </aside>
+</section>
+<section data-background-image="includes/kapow.svg">
+    <h4 style="margin-top: 30px;margin-left: -110px" class="gold">Success!</h4>
+    <aside class="notes">
+        <p>At the end of this process we end with a fully integrated system, with data going into InPresto, followed by automated exports
+            which are then followed by automated imports into Drupal</p>
+        <p>And at the end of the day we end up with a pretty powerful tool...you can visit the wilder site any time to see it in action
+            but here are a few highlights of how the tools ended up</p>
+    </aside>
+</section>
